@@ -9,12 +9,17 @@ function Hero(props) {
 	const rootClass = 'hero';
 
 	const { content } = props;
+	  const backgroundImage = `url(${poster})`;
+
 
     return (
 			<section
 				className={`${rootClass} ${
 					content.theme ? `${rootClass}--${content.theme}` : ""
 				}`}
+				style={{
+					backgroundImage
+				}}
 			>
 				<AnimatedMediaPlayer
 					mp4Url={video}

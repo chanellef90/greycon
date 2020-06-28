@@ -1,6 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import PlayButton from './PlayButton';
 import './style.scss';
 
 function AnimatedMediaPlayer(props) {
@@ -87,13 +86,6 @@ function AnimatedMediaPlayer(props) {
 
   return (
 		<div className={rootClass}>
-			<div
-				className={`${rootClass}__overlay ${
-					isPlaying ? `${rootClass}__overlay--hidden` : ""
-				}`}
-			>
-				<PlayButton />
-			</div>
 			{/* eslint-disable-next-line jsx-a11y/mouse-events-have-key-events */}
 			<video
 				muted
@@ -111,6 +103,10 @@ function AnimatedMediaPlayer(props) {
 			>
 				<source src={mp4Url} type="video/mp4" />
 			</video>
+			<button className={`${rootClass}__play-button`} onClick={clickHandler}>
+				{!isPlaying && <i class="far fa-play-circle"></i>}
+				{isPlaying && <i class="far fa-pause-circle"></i>}
+			</button>
 		</div>
 	);
 }

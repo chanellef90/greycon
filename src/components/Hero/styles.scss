@@ -4,16 +4,17 @@
 $root-class: "hero";
 
 .#{$root-class} {
-    background: $white;
+    // background: $white;
     padding: 110px 0;
     text-align: center;
     position: relative;
     overflow: hidden;
     margin-top: 85px;
-
-    &--dark{
-        background: $black;
-    }
+    background-repeat: no-repeat;
+    background-position: center;
+    // &--dark{
+    //     background: $black;
+    // }
 
     @include media-breakpoint-up(md) {
         padding: 200px 0;

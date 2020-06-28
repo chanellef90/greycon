@@ -1,3 +1,6 @@
+@import '../../styles/_variables.scss';
+@import '../../styles/_layout.scss';
+
 $root-class: "animated-media-player";
 
 .#{$root-class} {
@@ -37,6 +40,21 @@ $root-class: "animated-media-player";
 
     &--hidden {
       display: none;
+    }
+  }
+
+  &__play-button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9;
+    color: #fff;
+    font-size: 40px;
+    border: none;
+    background: none;
+
+    @include media-breakpoint-up(md) {
+      font-size: 44px;
     }
   }
 }
