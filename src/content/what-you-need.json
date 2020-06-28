@@ -1,0 +1,13 @@
+{
+	"title": "We've got what you need",
+	"body": "We are a full-service construction company, we offer a wide range of contracting services to fit your every needs.",
+    "theme": "grey",
+    "id": "about",
+	"cta": {
+		"label": "Our Services",
+		"url": "#services",
+		"theme": "dark",
+        "ariaLabel" : "Link to our services"
+	}
+}
+

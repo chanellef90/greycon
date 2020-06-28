@@ -1,0 +1,74 @@
+/*
+ *  Reset the navigator styles.
+ *  This should only be imported into master.scss
+ */
+
+@import "variables";
+
+@at-root {
+  @-ms-viewport {
+    width: device-width;
+  } // stylelint-disable-line at-rule-no-vendor-prefix
+}
+
+// from bootstrap grid
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  // from bootstrap grid
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+
+  // needed for the font-size mixin
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  // needed for the font-size mixin
+  font-size: 1.6rem;
+  line-height: 1;
+  font-family: $body-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+// Disable next build watcher/indicator because it causes Axe tests to fail locally
+#__next-build-watcher {
+  display: none;
+}
+
+// focus outline for all links in the page
+// a:focus {
+//   outline: 5px auto $blue;
+// }
+
+// Add these styles to override safari and firefox default browser styles
+button {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  background: none !important;
+}

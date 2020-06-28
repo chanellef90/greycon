@@ -1,0 +1,12 @@
+{
+    "title": "COMMERCIAL CONSTRUCTION COMPANY",
+    "body": "We provide the best value and service guaranteed.",
+    "theme" : "dark",
+    "cta" : {
+        "label" : "Learn More",
+        "url" : "#about",
+        "theme" : "dark",
+        "ariaLabel" : "Link to about us"
+    }
+}
+

@@ -1,0 +1,19 @@
+{
+	"title": "Let's Get In Touch!",
+	"body": "Ready to start your next construction project with us? Give us a call or send us an email and we will get back to you as soon as possible!",
+	"theme": "light",
+	"colums": "two",
+	"id" : "contact",
+	"items" : [
+		{
+			"title" : "+1 (416) 991-4853",
+			"icon" : "phone"
+		},
+		{
+			"title": "info@greycon.ca",
+			"icon": "envelope",
+			"link" : "info@greycon.ca"
+		}
+	]
+}
+

@@ -1,0 +1,40 @@
+{
+	"title": "Services",
+	"theme": "light",
+	"id": "services",
+	"items": [
+		{
+			"title": "Concrete",
+			"icon": "briefcase"
+		},
+		{
+			"title": "Drywall",
+			"icon": "wrench"
+		},
+		{
+			"title": "Mud/Tape",
+			"icon": "hammer"
+		},
+		{
+			"title": "Accusite Ceilings",
+			"icon": "pencil-ruler"
+		},
+		{
+			"title": "Painting",
+			"icon": "briefcase"
+		},
+		{
+			"title": "Flooring",
+			"icon": "wrench"
+		},
+		{
+			"title": "Doors & Hardware",
+			"icon": "hammer"
+		},
+		{
+			"title": "Demolition",
+			"icon": "pencil-ruler"
+		}
+	]
+}
+

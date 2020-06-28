@@ -1,0 +1,20 @@
+{
+	"title": "Testimonials",
+	"theme": "dark",
+	"id": "testimonials",
+	"cta": {
+		"label": "Contact Us",
+		"url": "#contact",
+        "theme": "dark",
+        "ariaLabel" : "Link to contact us"
+	},
+	"slides": [
+		{
+			"title": "IGNITE Highly Recommends Greycon!",
+			"body": "When IGNITE was tendering for a particularly complex segment of a recent construction project, one of the primary vendors to the project recommended Greycon. We are thankful they did! The Greycon crew was fabulous. Their workmanship was great, they completed their scope of work on time, and they were easy to work with. If given the opportunity, we would hire them again!",
+			"author": "OWEN ROBERTS, Project Manager IGNITE Infrastructure Association",
+			"link": "https://igniteassociation.org/"
+		}
+	]
+}
+
